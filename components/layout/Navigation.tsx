@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Globe, Briefcase } from 'lucide-react';
 
