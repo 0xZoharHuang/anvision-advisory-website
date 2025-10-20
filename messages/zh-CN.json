@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "corporateStructuring": "公司架构",
+    "accountingTax": "会计税务",
+    "advisoryLicensing": "咨询许可",
+    "globalIdentity": "全球身份规划",
+    "contact": "联系我们",
+    "getDemo": "立即开始"
+  },
+  "hero": {
+    "title": "全球化视野。",
+    "titleHighlight": "驱动愿景实现。",
+    "subtitle": "ANVISION ADVISORY 提供端到端的企业咨询、架构设计和合规解决方案，帮助企业在全球范围内自信、清晰地建立、扩展和无缝运营。",
+    "mission": {
+      "title": "使命",
+      "description": "我们的使命简单而有力：将愿景转化为行动，赋能企业以清晰、机遇和持久影响力跨境增长。"
+    },
+    "vision": {
+      "title": "愿景",
+      "description": "我们致力于帮助客户实现其全部潜力，构建企业无缝全球化运营的未来——让雄心不受国界限制。"
+    },
+    "ctaPrimary": "联系我们",
+    "ctaSecondary": "探索服务"
+  },
+  "corporateStructuring": {
+    "title": "公司架构",
+    "subtitle": "在关键司法管辖区设计您的全球架构，实现战略性实体设立",
+    "asiaMiddleEast": {
+      "title": "亚洲与中东",
+      "emoji": "🌏",
+      "description": "在新加坡、香港、迪拜、哈萨克斯坦等领先商业中心建立运营中心和区域总部——支持初创企业和成长型公司的市场准入、早期成长和长期扩张。",
+      "countries": ["新加坡", "香港", "迪拜", "哈萨克斯坦", "日本"]
+    },
+    "westernMarkets": {
+      "title": "西方市场",
+      "emoji": "🌍",
+      "description": "在美国和英国设计投资者友好型架构，支持融资、战略合作和IPO准备——为您的企业进入全球资本市场做好定位。",
+      "countries": ["美国", "英国"]
+    },
+    "offshoreJurisdictions": {
+      "title": "离岸司法管辖区",
+      "emoji": "🌴",
+      "description": "在BVI、开曼群岛、巴哈马、巴拿马等领先离岸中心建立灵活、税收优化的架构——非常适合资产保护、控股公司和跨境投资。",
+      "countries": ["英属维尔京群岛 (BVI)", "开曼群岛", "巴哈马", "巴拿马"]
+    },
+    "web3Support": "我们还为Web3项目提供符合监管要求的实体设立和VASP牌照解决方案，实现合规的数字资产运营。"
+  },
+  "accountingTax": {
+    "title": "会计与税务",
+    "subtitle": "全面的财务管理和税务合规服务",
+    "services": [
+      {
+        "title": "簿记与财务报告",
+        "description": "准确的记录保存和全面的财务报表，助力明智决策。"
+      },
+      {
+        "title": "税务合规与申报",
+        "description": "跨多个司法管辖区及时准确的税务准备和申报。"
+      },
+      {
+        "title": "审计支持与法定报告",
+        "description": "审计和法定报告要求的专业协助。"
+      },
+      {
+        "title": "薪资与人力资源会计",
+        "description": "简化的薪资处理和人力资源会计解决方案。"
+      },
+      {
+        "title": "跨境税务规划与咨询",
+        "description": "国际运营和交易的战略性税务规划。"
+      }
+    ]
+  },
+  "advisoryLicensing": {
+    "title": "咨询与许可",
+    "subtitle": "业务增长的战略指导和监管支持",
+    "services": [
+      {
+        "title": "市场准入与扩张策略",
+        "description": "制定量身定制的市场进入计划，识别区域机会，设计可持续的增长模式。"
+      },
+      {
+        "title": "监管与政策咨询",
+        "description": "应对复杂的监管环境，使您的商业模式与不断演变的法律框架保持一致。"
+      },
+      {
+        "title": "许可支持",
+        "description": "获取金融服务、金融科技和虚拟资产运营所需的必要许可证。"
+      },
+      {
+        "title": "Web3合规解决方案",
+        "description": "获取VASP牌照，开发AML/KYC框架，确保数字资产活动的完全监管合规。"
+      }
+    ]
+  },
+  "globalIdentity": {
+    "title": "全球身份规划",
+    "subtitle": "扩展您的个人和商业全球流动性",
+    "services": [
+      {
+        "title": "工作与商务流动",
+        "description": "协助国际工作许可、商务签证和搬迁支持。"
+      },
+      {
+        "title": "永久居留解决方案",
+        "description": "指导关键司法管辖区的永久居留途径。"
+      },
+      {
+        "title": "公民身份与投资项目",
+        "description": "获取投资移民项目和第二护照机会。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备好行动了吗？",
+    "subtitle": "选择您的全球商业成功之路",
+    "buttons": {
+      "corporateStructuring": {
+        "label": "设计我的全球架构",
+        "description": "公司架构"
+      },
+      "accountingTax": {
+        "label": "优化我的合规",
+        "description": "会计与税务"
+      },
+      "advisoryLicensing": {
+        "label": "探索战略解决方案",
+        "description": "咨询与许可"
+      },
+      "globalIdentity": {
+        "label": "规划我的全球身份",
+        "description": "全球身份规划"
+      },
+      "contact": {
+        "label": "咨询顾问",
+        "description": "联系我们"
+      }
+    },
+    "email": "hello@anvisionadvisory.com"
+  },
+  "footer": {
+    "tagline": "端到端的企业咨询、架构设计和合规解决方案",
+    "address": {
+      "label": "新加坡办公室",
+      "line1": "13-151, 71 Robinson Rd",
+      "line2": "Singapore 068895"
+    },
+    "contact": {
+      "label": "联系我们",
+      "email": "hello@anvisionadvisory.com"
+    },
+    "services": "服务",
+    "company": "公司",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© 2025 ANVISION ADVISORY. 保留所有权利。"
+  }
+}

@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SecureAssist - Professional Executive Assistant Services Website
+
+A modern, professional enterprise website for global executive assistant services.
+
+## Features
+
+- ✅ Next.js 15 with App Router & TypeScript
+- ✅ Internationalization (EN, ZH-CN) with next-intl
+- ✅ Professional UI with Shadcn/ui + Tailwind CSS v4
+- ✅ SEO Optimized with complete metadata
+- ✅ Responsive design (mobile-first)
+- ✅ Type-safe with full TypeScript support
+
+## Tech Stack
+
+- **Framework**: Next.js 15.5.5
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI**: Shadcn/ui + Radix UI
+- **Icons**: Lucide React
+- **i18n**: next-intl
 
 ## Getting Started
 
-First, run the development server:
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/[locale]/          # Internationalized routes
+│   ├── layout.tsx         # Root layout with i18n
+│   └── page.tsx          # Homepage
+├── components/
+│   ├── layout/           # Navigation, Footer
+│   ├── sections/         # Hero, Services, WhyUs, CTA
+│   └── ui/              # Shadcn/ui components
+├── messages/
+│   ├── en.json          # English translations
+│   └── zh-CN.json       # Chinese translations
+└── lib/
+    └── metadata.ts      # SEO configuration
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Available Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Homepage** (`/` or `/en`, `/zh-CN`)
+  - Hero section with brand messaging
+  - Services overview (Standard, Customized, AI Agent)
+  - Why choose us section
+  - CTA section
 
-## Deploy on Vercel
+## Internationalization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Switch between languages:
+- English: http://localhost:3000/en
+- 中文: http://localhost:3000/zh-CN
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Design System
+
+### Colors
+- Primary: Professional Blue
+- Background: White
+- Text: Deep Navy/Black
+
+### Typography
+- Sans: Inter (Latin), Noto Sans SC (Chinese)
+- Headings: Bold, tight tracking
+
+## Deploy to Vercel
+
+```bash
+npm i -g vercel
+vercel
+```
+
+Or push to GitHub and import in Vercel dashboard.
+
+## License
+
+Proprietary - All rights reserved
+
+---
+
+Built with Next.js & Tailwind CSS

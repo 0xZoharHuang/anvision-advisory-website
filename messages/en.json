@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "corporateStructuring": "Corporate Structuring",
+    "accountingTax": "Accounting & Tax",
+    "advisoryLicensing": "Advisory & Licensing",
+    "globalIdentity": "Global Identity Planning",
+    "contact": "Contact",
+    "getDemo": "Get Started"
+  },
+  "hero": {
+    "title": "Global in Vision.",
+    "titleHighlight": "Driven to Envision.",
+    "subtitle": "ANVISION ADVISORY delivers end-to-end corporate advisory, structuring, and compliance solutions that enable businesses to establish, scale, and operate seamlessly across borders with confidence and clarity.",
+    "mission": {
+      "title": "Mission",
+      "description": "Our mission is simple but powerful: to transform vision into action and empower businesses to grow across borders with clarity, opportunity, and lasting impact."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "We aim to help clients envision their full potential and build a future where businesses operate seamlessly and globally — where ambition knows no borders."
+    },
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "Explore Services"
+  },
+  "corporateStructuring": {
+    "title": "Corporate Structuring",
+    "subtitle": "Design your global structure with strategic entity setup across key jurisdictions",
+    "asiaMiddleEast": {
+      "title": "Asia & Middle East",
+      "emoji": "🌏",
+      "description": "Establish operational hubs and regional headquarters in leading business centers like Singapore, Hong Kong, Dubai, and Kazakhstan — supporting market entry, early-stage growth, and long-term expansion for startups and scaling companies.",
+      "countries": ["Singapore", "Hong Kong", "Dubai", "Kazakhstan", "Japan"]
+    },
+    "westernMarkets": {
+      "title": "Western Markets",
+      "emoji": "🌍",
+      "description": "Design investor-ready structures in the U.S. and U.K. to support fundraising, strategic partnerships, and IPO readiness — positioning your business for global capital markets.",
+      "countries": ["United States", "United Kingdom"]
+    },
+    "offshoreJurisdictions": {
+      "title": "Offshore Jurisdictions",
+      "emoji": "🌴",
+      "description": "Build flexible, tax-efficient structures in leading offshore centers such as BVI, Cayman, Bahamas, Panama — ideal for asset protection, holding companies, and cross-border investments.",
+      "countries": ["British Virgin Islands (BVI)", "Cayman Islands", "Bahamas", "Panama"]
+    },
+    "web3Support": "We also support Web3 projects with regulatory-ready entity setup and VASP licensing solutions to enable compliant digital asset operations."
+  },
+  "accountingTax": {
+    "title": "Accounting & Tax",
+    "subtitle": "Comprehensive financial management and tax compliance services",
+    "services": [
+      {
+        "title": "Bookkeeping & Financial Reporting",
+        "description": "Accurate record-keeping and comprehensive financial statements for informed decision-making."
+      },
+      {
+        "title": "Tax Compliance & Filing",
+        "description": "Timely and accurate tax preparation and filing across multiple jurisdictions."
+      },
+      {
+        "title": "Audit Support & Statutory Reporting",
+        "description": "Professional assistance with audits and statutory reporting requirements."
+      },
+      {
+        "title": "Payroll & HR Accounting",
+        "description": "Streamlined payroll processing and HR accounting solutions."
+      },
+      {
+        "title": "Cross-Border Tax Planning & Advisory",
+        "description": "Strategic tax planning for international operations and transactions."
+      }
+    ]
+  },
+  "advisoryLicensing": {
+    "title": "Advisory & Licensing",
+    "subtitle": "Strategic guidance and regulatory support for business growth",
+    "services": [
+      {
+        "title": "Market Entry & Expansion Strategy",
+        "description": "Build tailored go-to-market plans, identify regional opportunities, and design sustainable growth models."
+      },
+      {
+        "title": "Regulatory & Policy Advisory",
+        "description": "Navigate complex regulatory environments and align your business model with evolving legal frameworks."
+      },
+      {
+        "title": "Licensing Support",
+        "description": "Obtain necessary licenses for financial services, fintech, and virtual asset operations."
+      },
+      {
+        "title": "Web3 Compliance Solutions",
+        "description": "Secure VASP licenses, develop AML/KYC frameworks, and ensure full regulatory readiness for digital asset activities."
+      }
+    ]
+  },
+  "globalIdentity": {
+    "title": "Global Identity Planning",
+    "subtitle": "Expand your personal and business mobility worldwide",
+    "services": [
+      {
+        "title": "Work & Business Mobility",
+        "description": "Facilitate international work permits, business visas, and relocation support."
+      },
+      {
+        "title": "Permanent Residency Solutions",
+        "description": "Navigate pathways to permanent residency in key jurisdictions."
+      },
+      {
+        "title": "Citizenship & Investment Programs",
+        "description": "Access citizenship by investment programs and second passport opportunities."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Take Action?",
+    "subtitle": "Choose your path to global business success",
+    "buttons": {
+      "corporateStructuring": {
+        "label": "Design My Global Structure",
+        "description": "Corporate Structuring"
+      },
+      "accountingTax": {
+        "label": "Optimize My Compliance",
+        "description": "Accounting & Tax"
+      },
+      "advisoryLicensing": {
+        "label": "Explore Strategic Solutions",
+        "description": "Advisory & Licensing"
+      },
+      "globalIdentity": {
+        "label": "Plan My Global Identity",
+        "description": "Global Identity Planning"
+      },
+      "contact": {
+        "label": "Speak to an Advisor",
+        "description": "Contact"
+      }
+    },
+    "email": "hello@anvisionadvisory.com"
+  },
+  "footer": {
+    "tagline": "End-to-end corporate advisory, structuring, and compliance solutions",
+    "address": {
+      "label": "Singapore Office",
+      "line1": "13-151, 71 Robinson Rd",
+      "line2": "Singapore 068895"
+    },
+    "contact": {
+      "label": "Contact Us",
+      "email": "hello@anvisionadvisory.com"
+    },
+    "services": "Services",
+    "company": "Company",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2025 ANVISION ADVISORY. All rights reserved."
+  }
+}
