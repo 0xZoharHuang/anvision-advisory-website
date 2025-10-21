@@ -3,8 +3,9 @@
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Globe, Briefcase } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 
 export function Navigation() {
   const t = useTranslations('nav');
@@ -28,20 +29,25 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass-effect border-b border-border shadow-luxury">
       <div className="container-wide">
-        <div className="flex items-center justify-between h-20 md:h-24">
-          {/* Logo - Professional design with icon */}
+        <div className="flex items-center justify-between h-18 md:h-20">
+          {/* Logo - Professional design with logo image */}
           <Link href={`/${locale}`} className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-[var(--radius-md)] bg-gradient-primary
-                          flex items-center justify-center shadow-luxury
-                          group-hover:shadow-luxury-lg group-hover:scale-105 transition-all duration-300">
-              <Briefcase className="w-5 h-5 md:w-6 md:h-6 text-white" />
+            <div className="relative w-16 h-16 md:w-20 md:h-20
+                          group-hover:scale-105 transition-all duration-300">
+              <Image
+                src="/logo.svg"
+                alt="ANVISION ADVISORY"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg md:text-xl tracking-tight
+              <div className="font-bold text-sm md:text-base tracking-tight
                              text-foreground group-hover:text-primary transition-colors">
                 ANVISION ADVISORY
               </div>
-              <div className="text-xs text-muted-foreground font-medium tracking-wide">
+              <div className="text-[10px] md:text-[11px] text-muted-foreground font-medium tracking-wide">
                 Executive Solutions
               </div>
             </div>
@@ -58,7 +64,7 @@ export function Navigation() {
                          relative group py-2"
               >
                 {item.name}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-primary
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 gradient-primary
                               group-hover:w-full transition-all duration-300" />
               </Link>
             ))}

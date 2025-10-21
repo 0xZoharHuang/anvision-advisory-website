@@ -2,9 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import { Card, CardContent } from '@/components/ui/card';
-import { BookOpen, FileText, ClipboardCheck, Users, Globe2 } from 'lucide-react';
+import { Calculator, FileCheck, ShieldCheck, Users, Globe2, Bitcoin } from 'lucide-react';
 
-const serviceIcons = [BookOpen, FileText, ClipboardCheck, Users, Globe2];
+const serviceIcons = [Calculator, FileCheck, ShieldCheck, Users, Globe2, Bitcoin];
 
 export function AccountingTaxSection() {
   const t = useTranslations('accountingTax');
@@ -24,7 +24,7 @@ export function AccountingTaxSection() {
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => {
-            const Icon = serviceIcons[index] || BookOpen;
+            const Icon = serviceIcons[index] || Calculator;
             return (
               <ServiceCard
                 key={index}
@@ -64,7 +64,7 @@ function ServiceCard({
     >
       <CardContent className="p-4 sm:p-5">
         {/* Icon */}
-        <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-[var(--radius-md)] bg-gradient-primary
+        <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-[var(--radius-md)] gradient-primary
                       flex items-center justify-center mb-3
                       shadow-luxury group-hover:shadow-luxury-lg
                       group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 ease-out">

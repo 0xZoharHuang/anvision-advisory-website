@@ -18,7 +18,7 @@ export function CTASection() {
   const email = t('email');
 
   return (
-    <section id="contact" className="min-h-screen section-padding gradient-primary text-primary-foreground relative overflow-hidden scroll-mt-20 md:scroll-mt-24 snap-section">
+    <section id="contact" className="flex flex-col justify-center min-h-fit section-padding gradient-primary text-primary-foreground relative overflow-hidden scroll-mt-20 md:scroll-mt-24 snap-section">
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl" />

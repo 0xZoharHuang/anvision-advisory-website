@@ -45,7 +45,6 @@ export function ServicesSection() {
             <RegionCard
               key={region.key}
               icon={region.icon}
-              emoji={t(`${region.key}.emoji`)}
               title={t(`${region.key}.title`)}
               description={t(`${region.key}.description`)}
               countries={t.raw(`${region.key}.countries`) as string[]}
@@ -72,7 +71,6 @@ export function ServicesSection() {
 
 function RegionCard({
   icon: Icon,
-  emoji,
   title,
   description,
   countries,
@@ -81,7 +79,6 @@ function RegionCard({
   index,
 }: {
   icon: React.ComponentType<{ className?: string }>;
-  emoji: string;
   title: string;
   description: string;
   countries: string[];
@@ -100,15 +97,14 @@ function RegionCard({
       }}
     >
       <CardContent className="p-4 sm:p-5 lg:p-6 flex flex-col flex-1">
-        {/* Icon with emoji */}
-        <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-5">
+        {/* Icon */}
+        <div className="mb-4 sm:mb-5">
           <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-[var(--radius-md)] ${iconGradient}
                          flex items-center justify-center
                          shadow-luxury group-hover:shadow-luxury-lg
                          group-hover:scale-110 transition-all duration-500 ease-out`}>
             <Icon className="w-6 h-6 sm:w-7 sm:h-7 text-white transition-transform duration-300" />
           </div>
-          <span className="text-3xl sm:text-4xl">{emoji}</span>
         </div>
 
         {/* Title */}

@@ -30,7 +30,7 @@ export function HeroSection() {
             <span className="block text-balance font-display">
               {t('title')}
             </span>
-            <span className="block mt-4 bg-gradient-primary bg-clip-text text-transparent font-display">
+            <span className="block mt-4 text-gradient-primary font-display">
               {t('titleHighlight')}
             </span>
           </h1>
@@ -105,7 +105,7 @@ function MissionVisionCard({
                     border-2 border-border shadow-luxury hover:border-primary/40 hover:shadow-luxury-lg
                     transition-all duration-300 hover:-translate-y-1`}>
       {/* Icon */}
-      <div className="inline-flex w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-primary
+      <div className="inline-flex w-10 h-10 sm:w-12 sm:h-12 rounded-full gradient-primary
                     items-center justify-center mb-3
                     shadow-luxury group-hover:shadow-luxury-lg group-hover:scale-110 group-hover:rotate-6
                     transition-all duration-300 ease-out">

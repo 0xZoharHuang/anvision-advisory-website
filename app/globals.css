@@ -255,6 +255,19 @@
     );
   }
 
+  /* Text Gradients - For gradient text with bg-clip-text */
+  .text-gradient-primary {
+    background: linear-gradient(135deg,
+      oklch(0.30 0.20 265) 0%,
+      oklch(0.45 0.30 265) 50%,
+      oklch(0.52 0.32 285) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
   /* Effects - Enhanced glass and borders */
   .glass-effect {
     background: oklch(1 0 0 / 0.85);

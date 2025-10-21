@@ -64,7 +64,7 @@ function ServiceCard({
     >
       <CardContent className="p-4 sm:p-5">
         {/* Icon */}
-        <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-[var(--radius-md)] bg-gradient-accent
+        <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-[var(--radius-md)] gradient-accent
                       flex items-center justify-center mb-3
                       shadow-luxury group-hover:shadow-luxury-lg
                       group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 ease-out">
