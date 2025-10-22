@@ -21,7 +21,7 @@ const regions = [
     key: 'offshoreJurisdictions',
     icon: Ship,
     gradient: 'from-accent/5 to-accent/10',
-    iconGradient: 'bg-gradient-accent',
+    iconGradient: 'gradient-accent',
   },
 ] as const;
 
